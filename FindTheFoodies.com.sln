@@ -3,7 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{6838037D-C4C5-4932-A5E1-689A1AE48A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIService", "APIService\APIService.csproj", "{09112D90-49AF-4421-A74A-DA14BFAC2147}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6838037D-C4C5-4932-A5E1-689A1AE48A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6838037D-C4C5-4932-A5E1-689A1AE48A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6838037D-C4C5-4932-A5E1-689A1AE48A25}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6838037D-C4C5-4932-A5E1-689A1AE48A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6838037D-C4C5-4932-A5E1-689A1AE48A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6838037D-C4C5-4932-A5E1-689A1AE48A25}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{09112D90-49AF-4421-A74A-DA14BFAC2147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09112D90-49AF-4421-A74A-DA14BFAC2147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09112D90-49AF-4421-A74A-DA14BFAC2147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09112D90-49AF-4421-A74A-DA14BFAC2147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
